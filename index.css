@@ -1,0 +1,47 @@
+html, body {
+  text-align: center;
+
+}
+#main {
+  background: #eef;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 15px;
+}
+#main div {
+  padding: 10px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  border: 2px solid white;
+  border-radius: 25px;
+}
+#img-div {
+  width: 100%;
+  margin-top: 30px;
+  margin: -5px;
+}
+#img-caption {
+  margin: 15px;
+}
+#headline {
+  margin-top: 50px;
+  text-align: left;
+}
+
+li {
+  margin: 10px;
+}
+#tribute-info ul {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: left;
+}
+#end {
+  max-width: 550px;
+  text-align: center;
+  margin: 0 auto;
+}

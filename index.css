@@ -1,6 +1,7 @@
-html, body {
+html,
+body {
   text-align: center;
-
+  height: 100%;
 }
 #main {
   background: #eef;
@@ -44,4 +45,20 @@ li {
   max-width: 550px;
   text-align: center;
   margin: 0 auto;
+}
+.parallax {
+  /* The image used */
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.style {
+  height: 1000px;
 }
